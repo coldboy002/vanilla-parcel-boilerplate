@@ -1,4 +1,23 @@
-node_modules
 .cache/
+coverage/
+dist/*
+!dist/index.html
 development
-dist
+build
+node_modules/
+*.log
+.env
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+node_modules/
+npm-debug.log
+yarn-error.log
